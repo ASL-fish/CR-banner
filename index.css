@@ -1,68 +1,92 @@
 .banner {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width:  100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
 
 .bannerImgDiv {
-    width: 100%;
-    height:600px;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 5px;
 }
 
 .bannerImg {
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .fourDiv1 {
-    position: fixed;
-    transform: translate(-0,-50%);
-    right:0;
-    top:50%;
-    height: 110px;
-    width: 50px;
-    background-color: pink;
-    
-  transition: top 1s;
-}
-
-/* .fourDiv1 {
-    position: absolute;
-    height: 100%;
-    width: fit-content;
-    top: 0px;
-    inset-inline-end: 3%;
-    z-index: 10;
-    pointer-events: none;
+  position: absolute;
+  height: 100%;
+  width: fit-content;
+  top: 0px;
+  inset-inline-end: 3%;
+  z-index: 10;
+  pointer-events: none;
+  /* background-color: brown; */
 }
 
 .fourDiv2 {
-    width: 50px;
-    background-color: pink;
-    position: sticky;
-    top: 0px;
-    margin-block-start: calc(clamp(5rem, 3.4375rem + 3.9063vw, 6.875rem) * -1);
-    pointer-events: none;
-    height: 100vh;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    z-index: 5;
+  position: sticky;
+  top: 0px;
+  margin-block-start: calc(clamp(5rem, 3.4375rem + 3.9063vw, 6.875rem) * -1);
+  pointer-events: none;
+  height: 100vh;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 5;
+  /* background-color: pink; */
+}
+
+.fourDiv3 {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 12px;
+  top: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  height: min-content;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* .fourDiv2 {
+  position: fixed;
+  transform: translate(-0, -50%);
+  right: 0;
+  top: 50%;
+  width: 50px;
+  background-color: pink;
+
+  transition: top 1s;
 } */
 
+.smallDiv1,
+.smallDiv2,
+.smallDiv3,
+.smallDiv4 {
+  height: 20px;
+  width: 5px;
+  background-color: blue;
+  margin-top: 5px;
+}
+
 .smallDiv {
-    height: 50px;
-    width: 30px;
-    background-color: blue;
-    margin-top: 5px;
+  height: 20px;
+  width: 5px;
+  background-color: blue;
+  margin-top: 5px;
 }
 
 .content {
-    height: 600px;
-    width: 100%;
-    background-color: gold;
+  height: 600px;
+  width: 100%;
+  background-color: gold;
 }
-
