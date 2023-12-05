@@ -1,0 +1,68 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:  100%;
+}
+
+.bannerImgDiv {
+    width: 100%;
+    height:600px;
+}
+
+.bannerImg {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.fourDiv1 {
+    position: fixed;
+    transform: translate(-0,-50%);
+    right:0;
+    top:50%;
+    height: 110px;
+    width: 50px;
+    background-color: pink;
+    
+  transition: top 1s;
+}
+
+/* .fourDiv1 {
+    position: absolute;
+    height: 100%;
+    width: fit-content;
+    top: 0px;
+    inset-inline-end: 3%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.fourDiv2 {
+    width: 50px;
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    margin-block-start: calc(clamp(5rem, 3.4375rem + 3.9063vw, 6.875rem) * -1);
+    pointer-events: none;
+    height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 5;
+} */
+
+.smallDiv {
+    height: 50px;
+    width: 30px;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.content {
+    height: 600px;
+    width: 100%;
+    background-color: gold;
+}
+
