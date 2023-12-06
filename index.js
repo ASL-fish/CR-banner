@@ -1,5 +1,20 @@
 console.log("linked");
 
+function scrollToVideoContainer(index) {
+  console.log("clicked");
+  const itemContainers = document.querySelectorAll(".bannerImgDiv");
+
+  if (index >= 0 && index < itemContainers.length) {
+    console.log("clicked" + index);
+    const targetContainer = itemContainers[index];
+    targetContainer.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
+function clicked() {
+  console.log("clicked");
+}
+
 // let prevScrollpos = window.pageYOffset;
 // console.log("prevScrollpos", prevScrollpos);
 // window.onscroll = function () {

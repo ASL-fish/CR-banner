@@ -26,7 +26,7 @@
   top: 0px;
   inset-inline-end: 3%;
   z-index: 10;
-  pointer-events: none;
+  /* pointer-events: none; */
   /* background-color: brown; */
 }
 
@@ -34,10 +34,10 @@
   position: sticky;
   top: 0px;
   margin-block-start: calc(clamp(5rem, 3.4375rem + 3.9063vw, 6.875rem) * -1);
-  pointer-events: none;
+  /* pointer-events: none; */
   height: 100vh;
   display: flex;
-  -webkit-box-align: center;
+  /* -webkit-box-align: center; */
   align-items: center;
   z-index: 5;
   /* background-color: pink; */
@@ -48,13 +48,13 @@
   grid-auto-flow: row;
   gap: 12px;
   top: 0px;
-  -webkit-box-align: center;
+  /* -webkit-box-align: center; */
   align-items: center;
   height: min-content;
   padding: 0px;
   margin: 0px;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 /* .fourDiv2 {
@@ -73,16 +73,18 @@
 .smallDiv3,
 .smallDiv4 {
   height: 20px;
-  width: 5px;
+  width: 3px;
   background-color: blue;
   margin-top: 5px;
+  border-radius: 5px;
 }
 
 .smallDiv {
   height: 20px;
-  width: 5px;
+  width: 3px;
   background-color: blue;
   margin-top: 5px;
+  border-radius: 5px;
 }
 
 .content {
